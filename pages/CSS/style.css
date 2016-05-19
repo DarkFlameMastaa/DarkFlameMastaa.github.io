@@ -1,0 +1,53 @@
+	#list li{
+			width: 100px;
+			height: 100px;
+			float:left;
+			border:blue 1px solid;
+			font-size:30px;
+			line-height:100px;
+			text-align:center;
+			text-decoration: none;
+			list-style-type:none;
+		}
+	#list{
+		overflow: hidden;
+		margin: 0 auto;
+		min-width:600px;
+	}
+	#pic{
+		display: block;
+		margin: 0 auto;
+	}
+	.box1{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: red;
+		left: 0;
+		top: 0;
+		text-align: center;
+		color: yellow;
+		font-size: 30px;
+	}	
+	.box2{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: red;
+		right: 0;
+		top: 0;
+		font-size: 30px;
+		color: #ffc107;
+	}
+	.box3{
+		display: block;
+		width: 20%;
+		position: absolute;
+		top: 150px;
+		left: 0;
+	}
+	.button{
+		position: absolute;
+		left: 20%;
+		top: 150px;
+	}

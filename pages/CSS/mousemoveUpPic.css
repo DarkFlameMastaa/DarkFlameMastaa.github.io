@@ -1,0 +1,15 @@
+.box{
+	display: inline-block;
+
+	text-align: center;
+}
+.box img{
+		width: 200px;
+}
+.pic{
+	display: block;
+	width: 300px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}

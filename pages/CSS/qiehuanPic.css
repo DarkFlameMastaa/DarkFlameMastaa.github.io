@@ -1,0 +1,42 @@
+.main{
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+.main .main-i{
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.main .main-i img{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 10%;
+	transition: all .5s;
+}
+.lunbo .main .main-active img{
+	opacity: 1;
+	left:50%;
+	margin-left: -210px;
+	transition: all .5s;
+}
+.ctrl{
+	text-align: center;
+}
+.ctrl .ctrl-i{
+	display: inline-block;
+	width: 150px;
+	height: 13px;
+	background: #cfd8dc;
+	border-right: 2px solid #ff3d00;
+}
+.ctrl .ctrl-active{
+	background: #000;
+}
+.ctrl .ctrl-i:last-child{
+	border-right: none;
+}
